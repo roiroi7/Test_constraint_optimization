@@ -1,0 +1,7 @@
+{
+  "reportUnknownArgumentType": "information",
+  "reportUnknownMemberType": "information",
+  "reportUnknownLambdaType": "information",
+  "reportUnknownParameterType": "information",
+  "reportUnknownVariableType": "information"
+}
