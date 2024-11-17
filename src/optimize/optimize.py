@@ -27,7 +27,7 @@ N_GENERATION = 2000
 
 
 ChromosomeElement = t.Literal[0] | t.Literal[1]
-type Chromosome = list[ChromosomeElement]
+Chromosome = list[ChromosomeElement]
 
 
 class OrderOptimizer:
