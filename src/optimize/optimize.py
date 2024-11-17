@@ -26,7 +26,7 @@ LAMBDA = 200
 N_GENERATION = 2000
 
 
-type ChromosomeElement = t.Literal[0] | t.Literal[1]
+ChromosomeElement: t.TypeAlias = t.Literal[0] | t.Literal[1]
 type Chromosome = list[ChromosomeElement]
 
 
